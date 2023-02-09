@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belleza&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 100%;
+  background-color: #ac8865;
+  height: 3.7rem;
+}
+
+.title-container {
+  width: 100%;
+  padding-right: 8rem;
+}
+
+.headerTitle {
+  padding: 0.5rem;
+  padding-left: 3rem;
+  font-family: "Cinzel Decorative", cursive;
+  color: #ffff;
+}
+
+nav {
+  background-color: #dab999;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+nav ul a {
+  color: #404a53;
+  font-family: "Belleza", sans-serif;
+  font-size: 20px;
+  padding-bottom: 0;
+}
+
+nav ul li {
+  margin: 0;
+  padding-top: 14px;
+  padding-bottom: 30px;
+}
+
+nav ul li:hover {
+  background-color: #ac8865;
+  margin-top: 0;
+}
+
+nav ul a:hover {
+  color: #ffff;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-caption {
+  position: absolute;
+  bottom: 3rem;
+  background-color: #957d557a;
+  margin-top: 0;
+  margin-bottom: -50px;
+  color: #ffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+#btn {
+  margin-top: 1rem;
+  padding: 13px;
+  border: 3px solid #ac8865;
+  background-color: #dab999;
+  color: black;
+}
+
+#btn:hover {
+  background-color: #ac8865;
+  border-color: #dab999;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.intro {
+  justify-content: center;
+  text-align: center;
+  padding: 7rem 7rem;
+}
+
+.services-overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  padding-bottom: 7.9rem;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-container {
+  background-color: #b0955f;
+  color: white;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 4rem;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #303030;
+  color: white;
+  height: 150px;
+  padding-bottom: 150px;
+  margin-bottom: 0;
+}
+
+.location {
+  margin-left: 1rem;
+  padding-top: 150px;
+  line-height: 8px;
+}
+
+.contact {
+  margin-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 150px;
+  line-height: 8px;
+}
+
+.contact a {
+  color: white;
+  text-decoration: underline;
+}
